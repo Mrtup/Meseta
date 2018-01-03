@@ -1,23 +1,14 @@
-var pablo = 10;
-switch (pablo){
+var lina = 3
+switch (lina){
     case 1:
-        document.write ("vamos");
+        alert("estas joven");
         break;
     case 2:
-        document.write ("hay que avanzar");
-        break;
+        alert("estas muy joven");
     case 3:
-        document.write ("ya casi");
+        alert("joven aun");
         break;
-    case 4:
-        document.write ("un poco mas");
+    default:
+        alert("viejita");
         break;
-    case 5:
-        alert("ahora");
-        break;
-    case 10:
-        alert("se pudo!!!");
-        break
-        default:
-        document.write("bien");
 }
