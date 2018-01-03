@@ -1,8 +1,8 @@
 var frutas = ["mora","uva","mango","fresa"];
 
-if(frutas[2]=="mango"){
-    document.write("esto es un mango");
+if(frutas [3]=="mora"){
+    alert("esta fruta no es una mora");
 }
 else{
-    document.write("esto no aplica");
+    alert("esta fruta es una fresa");
 }
