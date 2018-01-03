@@ -1,11 +1,23 @@
-// LO VAMOS A LOGRAR LO VAMOS A DOMINAR
-var numero1 = 23
-var numero2 = 38
-
-if(numero1 >= numero2){
-    alert("numero " + numero1 + " es mayor a " + numero2);
-}
-
-else if (numero1 <= numero2){
-    alert("numero " + numero1 + " es menor a " + numero2);
+var pablo = 10;
+switch (pablo){
+    case 1:
+        document.write ("vamos");
+        break;
+    case 2:
+        document.write ("hay que avanzar");
+        break;
+    case 3:
+        document.write ("ya casi");
+        break;
+    case 4:
+        document.write ("un poco mas");
+        break;
+    case 5:
+        alert("ahora");
+        break;
+    case 10:
+        alert("se pudo!!!");
+        break
+        default:
+        document.write("bien");
 }
