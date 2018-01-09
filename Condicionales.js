@@ -1,4 +1,5 @@
-var mensaje = "hola bucle"
-for (var i=0; i<= 5; i++){
-    document.write(mensaje + "<br/>");
+var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo","dominguito"];
+
+for(i in dias) {
+  alert(dias[i]);
 }
