@@ -44,7 +44,7 @@ table{
 </form>
 <script>
     var cuerpo = document.getElementById ("cuerpo");
-    var colorW = prompt ("introduce color");
+    var colorW = prompt ("introduce color").toLowerCase ();
 
     if (colorW== "rojo"){
         cuerpo.style.background= "red";
@@ -56,6 +56,9 @@ table{
     else if (colorW == "amarillo"){
         cuerpo.style.background = "yellow";
     }
+
+    else
+        alert("no color");
 
 
 
