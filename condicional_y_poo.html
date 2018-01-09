@@ -46,21 +46,21 @@ table{
     var cuerpo = document.getElementById ("cuerpo");
     var colorW = prompt ("introduce color").toLowerCase ();
 
-    if (colorW != "azul" && colorW != "rojo" && colorW != "amarillo"){
-        alert("El color es diferente");
-    }
+   if (colorW == "rojo"){
+       cuerpo.style.backgroundColor = ("red");
+   }
+    
     else if (colorW == "azul"){
-    cuerpo.style.backgroundColor = ("blue");
-}
-    else if (colorW == "rojo"){
-        cuerpo.style.backgroundColor = ("red");
+        cuerpo.style.backgroundColor = ("blue");
     }
-
+        
     else if (colorW == "amarillo"){
         cuerpo.style.backgroundColor = ("yellow");
     }
-
-
+        
+    else 
+        alert ("color no corresponde");
+    
     </script>
 
 
