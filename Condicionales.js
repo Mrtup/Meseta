@@ -1,12 +1,14 @@
-var casa = 3
+var casa = 9
 switch (casa){
     case 1:
         document.write("es la casa")
         break;
     case 2:
-        document.write("no es la casa")
+        document.write("es el apartamento")
         break;
     case 3:
-        document.write("ya te pasaste")
+        document.write("nueva casa")
         break;
+    default:
+        alert("cual quier otra")
 }
