@@ -1,4 +1,4 @@
-var i=1
-for(;i<=10;i++){
-    document.write(i + "<br/>");
+var mensaje = "hola bucle"
+for (var i=0; i<= 5; i++){
+    document.write(mensaje + "<br/>");
 }
