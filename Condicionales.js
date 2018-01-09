@@ -1,3 +1,4 @@
-for(i=1;i<=5;i++){
+var i=1
+for(;i<=10;i++){
     document.write(i + "<br/>");
 }
