@@ -1,6 +1,4 @@
-var i = 24;
-do {
-    document.write(i + "<br/>");
-    i++;
+var numero = 3
+if (numero > 3 || numero ==3 ){
+    document.write("Es un numero es 3")
 }
-while (i<=25);
