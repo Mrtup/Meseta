@@ -1,13 +1,10 @@
-var nombre, edad, sexo;
-nombre = prompt ("introduce nombre");
-edad = prompt ("introduce edad");
-if (edad >= 90){
-   alert ("has introducido edad incorrecta");
-    while (edad>=90){
-        edad = prompt ("introduce edad");
-        alert ("has introducido edad incorrecta");
-}
-}
-sexo = prompt ("introduce sexo");
+// json
+var fruta = {frut: "mango",
+ver : "tomate",
+tub : "papa"};
 
-document.write(nombre + "<br/>",edad + "<br/>", sexo)
+// array
+var frutas = ["mango","tomate","papa"];
+
+
+document.write(frutas [2])
