@@ -1,5 +1,6 @@
-var i = 0;
-do {
+var i = 0
+do{
     document.write(i + "</br>");
-    i++;
-} while (i < 100);
+    i++
+}
+while (i<10)
